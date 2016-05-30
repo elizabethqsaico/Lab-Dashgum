@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,4CAA4C;AAC5C,IAAI;EAAC,OAAO,EAAC,EAAE;;AACf,MAAM;EAAC,OAAO,EAAC,KAAK;;AACpB,KAAK;EAAC,aAAa,EAAC,EAAE;;AACtB,gBAAgB;EAAC,UAAU,EAAE,OAAO;;AACpC,iBAAiB;EAAC,UAAU,EAAC,IAAI;;AACjC,aAAa;EAAC,eAAe,EAAE,mBAAmB;EAClD,kBAAkB,EAAE,mBAAmB;EACvC,UAAU,EAAE,mBAAmB",
-"sources": ["data_table.scss"],
-"names": [],
-"file": "data_table.css"
-}
