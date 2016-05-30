@@ -6,7 +6,9 @@
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <title>Adventure time: Dashboard</title>
 
    
@@ -21,7 +23,7 @@
   <body>
 
   <section id="container" >
-      <header class="header black-bg">
+      <header class="header black-bg ">
         <div class="sidebar-toggle-box">
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>       
@@ -35,8 +37,8 @@
           </ul>
         </div>
       </header>
-      <aside>
-        <div id="sidebar"  class="nav-collapse ">
+      <aside id="menu">
+        <div id="sidebar"  class="nav-collapse">
           <ul class="sidebar-menu">
             <p class="text-center">
               <a href="profile.html">
@@ -88,14 +90,14 @@
             </li>            
           </ul>
         </div>
-      </aside>
+      </aside> 
       <!--main content start-->
-      <section id="main-content">
+      <section id="main-content" class="background-gray">
         <section class="wrapper site-min-height">
-          <h3><i class="fa fa-angle-right"></i> Gallery</h3>
+          <h3 class="pdl1"><a onclick="ocultar()" class="gallery"><i class="fa fa-angle-right"></i> Gallery</a></h3>
           <hr>
           <div class="row mt">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -108,7 +110,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -121,7 +123,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -136,7 +138,7 @@
           </div><!-- /row -->
 
           <div class="row mt">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -149,7 +151,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -162,7 +164,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -177,7 +179,7 @@
           </div><!-- /row -->
 
           <div class="row mt mb">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -190,7 +192,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -203,7 +205,7 @@
               </div>
             </div><!-- col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc pdl2 pdr2 pdb2">
               <div class="project-wrapper">
                 <div class="project">
                   <div class="photo-wrapper">
@@ -220,10 +222,13 @@
           </section><!--/wrapper -->
       </section><!-- /MAIN CONTENT -->
   </section>
-
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common-scripts.js"></script>
   </body>
 </html>
+<script type="text/javascript">
+  function ocultar(){
+  document.getElementById('menu').style.display = 'none';}
+</script>
