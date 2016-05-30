@@ -1,0 +1,8 @@
+mg0 -> margin en 4 lados
+mg2 -> margin en 4 lados
+mgt2 -> margin top
+pdb3 -> padding botton
+mgl5 -> margin left
+color-blue -> color azul de preferencia en hexadecimal #000000;
+background-red -> color rojo de preferencia en hexadecimal #000000;
+font-arial -> tipo de letra por ejemplo
