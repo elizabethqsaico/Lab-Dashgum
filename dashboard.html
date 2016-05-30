@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <title>Adventure time: Dashboard</title>
     <link href="css/font-awesome.css" rel="stylesheet"/>
-    <link href="css/adventure-time-theme.css" rel="stylesheet">
     <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/7.css">
    <link href="css/dashboard.css" rel="stylesheet">
@@ -23,32 +22,31 @@
 
   <body>
     <section id="container" >
-     <!-- menu
-      <header class="header black-bg">
-        <div class="sidebar-toggle-box">
-            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-        </div>      
-        <a href="dashboard.html" class="logo">
-          <b class="hidden-xs">ADVENTURE TIME: DASHBOARD</b>
-          <b class="visible-xs">ADV.TIME</b>
+      <header class="header menu black-bg">
+        <div class="sidebar-toggle-box inline">
+            <div class="fa fa-bars tooltips menu btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-original-title="Toggle Navigation"></div>
+        </div>
+        <a href="dashboard.html" class="logo inline">
+              <b class="hidden-xs menu">ADVENTURE TIME: DASHBOARD</b>
+              <b class="visible-xs">ADV.TIME</b>
         </a>
-        <div class="top-menu">
-          <ul class="nav pull-right top-menu">
+        <div class="top-menu inline pull-right">
+          <ul class="logout nav pull-right top-menu">
             <li><a class="logout" href="login.html">Logout</a></li>
           </ul>
         </div>
       </header>
-      <aside>
+      <aside class="dropdown">
         <div id="sidebar"  class="nav-collapse ">
-          <ul class="sidebar-menu">
+          <ul class="color-list sidebar-menu dropdown-menu" aria-labelledby="dropdownMenu1">
             <p class="text-center">
               <a href="profile.html">
                 <img src="img/profile_avatar.png" class="img-circle" width="60">
               </a>
             </p>
-            <h5 class="text-center">Bonnibel Bubblegum</h5>
+            <h5 class="text-center color-blanco">Bonnibel Bubblegum</h5>
             <li class="sub-menu">
-              <a class="active" href="dashboard.html">
+              <a href="dashboard.html">
                 <i class="fa fa-dashboard"></i>
                 <span>Dashboard</span>
               </a>
@@ -72,7 +70,7 @@
               </a>
             </li>
             <li class="sub-menu">
-              <a href="basic_tables.html" >
+              <a class="active" href="basic_tables.html" >
                 <i class="fa fa-th"></i>
                 <span>Data Tables</span>
               </a>
@@ -88,10 +86,10 @@
                 <i class="fa fa-book"></i>
                 <span>Login Page</span>
               </a>
-            </li> 
+            </li>            
           </ul>
         </div>
-      </aside>-->
+      </aside>
       <!--main content start-->
       <section id="main-content" class="background_gray">
         <section class="wrapper site-min-height">
@@ -118,6 +116,7 @@
                     <h3>23</h3>
                   </div>
                   <p>You have 23 unread messages in your inbox.</p>
+                  <br>
                 </div>
                 <div class="col-md-2 col-sm-2 box0">
                   <div class="box1">
