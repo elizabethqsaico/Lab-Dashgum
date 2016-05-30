@@ -1,0 +1,23 @@
+/**{ outline:1px solid rgba(255,0,0,0.3); */
+.pdb2 {
+  padding-bottom: 2%; }
+
+.pdl2 {
+  padding-left: 2%; }
+
+.pdr2 {
+  padding-right: 4%; }
+
+.pdl1 {
+  padding-left: 1%; }
+
+.background-gray {
+  background: #F2F2F2; }
+
+.gallery {
+  text-decoration: none; }
+
+.gallery:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=gallery.css.map */

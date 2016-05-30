@@ -1,0 +1,50 @@
+a {
+  text-decoration: none; }
+
+ul > li {
+  list-style: none;
+  text-decoration: none; }
+
+.bg-menu, header, .menu, aside, .color-list {
+  background-color: #424a5d; }
+
+.color-list {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+header, .menu {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #424a5d; }
+
+.inline {
+  display: inline-block; }
+
+.logout {
+  background-color: #b137ca;
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 0px 2px; }
+
+.sub-menu {
+  padding: 15px; }
+
+.sub-menu:hover {
+  background-color: #E26eab; }
+
+.dropdown-menu {
+  margin: -1px; }
+
+.dropdown-menu > li > a {
+  color: #f2dede; }
+
+.dropdown-menu > li > a:hover {
+  background-color: #E26eab;
+  color: #FFFFFF; }
+
+.color-blanco {
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=7.css.map */
