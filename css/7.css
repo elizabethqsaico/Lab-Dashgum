@@ -8,6 +8,10 @@ ul > li {
 .bg-menu, header, .menu, aside, .color-list {
   background-color: #424a5d; }
 
+.color-list {
+  padding-left: 10px;
+  padding-right: 10px; }
+
 header, .menu {
   color: #ffffff;
   font-size: 15px;
