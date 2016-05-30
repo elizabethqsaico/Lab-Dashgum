@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:TIME="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,10 @@
     <link rel="stylesheet" type="text/css" href="css/data_table.css">
    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="css/7.css">
+      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -20,30 +23,37 @@
 
   <body>
 
+<<<<<<< HEAD
+  <section id="container" >
+      <header class="header menu black-bg">
+        <div class="sidebar-toggle-box inline">
+            <div class="fa fa-bars tooltips menu btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-original-title="Toggle Navigation"></div>
+=======
   <section id="container" ><!--
       <header class="header black-bg">
         <div class="sidebar-toggle-box">
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+>>>>>>> 72c22c8192cd6291da0fc402167920d76b5d3d89
         </div>       
-        <a href="dashboard.html" class="logo">
-          <b class="hidden-xs">ADVENTURE TIME: DASHBOARD</b>
-          <b class="visible-xs">ADV.TIME</b>
+        <a href="dashboard.html" class="logo inline">
+              <b class="hidden-xs menu">ADVENTURE TIME: DASHBOARD</b>
+              <b class="visible-xs">ADV.TIME</b>
         </a>
-        <div class="top-menu">
-          <ul class="nav pull-right top-menu">
+        <div class="top-menu inline pull-right">
+          <ul class="logout nav pull-right top-menu">
             <li><a class="logout" href="login.html">Logout</a></li>
           </ul>
         </div>
       </header>
-      <aside>
+      <aside class="dropdown">
         <div id="sidebar"  class="nav-collapse ">
-          <ul class="sidebar-menu">
+          <ul class="color-list sidebar-menu dropdown-menu" aria-labelledby="dropdownMenu1">
             <p class="text-center">
               <a href="profile.html">
                 <img src="img/profile_avatar.png" class="img-circle" width="60">
               </a>
             </p>
-            <h5 class="text-center">Bonnibel Bubblegum</h5>
+            <h5 class="text-center color-blanco">Bonnibel Bubblegum</h5>
             <li class="sub-menu">
               <a href="dashboard.html">
                 <i class="fa fa-dashboard"></i>
