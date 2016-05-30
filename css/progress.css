@@ -1,3 +1,17 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3); }
 
+#main-content {
+  margin-top: 2%;
+  margin-left: 2%; }
+
+.background_grey {
+  background-color: #F2F2F2; }
+
+#blanco {
+  padding: 3% 3%;
+  box-shadow: -2px 4px 5px #0B0B3B;
+  background-color: white;
+  margin: 5% 2%; }
 
 /*# sourceMappingURL=progress.css.map */
