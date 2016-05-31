@@ -6,11 +6,12 @@ $(function() {
         if (wSize <= 768) {
             $('#container').addClass('sidebar-closed');
             $('#sidebar > ul').hide();
+            
         }
 
         if (wSize > 768) {
             $('#container').removeClass('sidebar-closed');
-            $('#sidebar > ul').show();
+            $('#sidebar > ul').hide();
         }
     }
     $(window).on('load', responsiveView);
