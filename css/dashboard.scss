@@ -1,3 +1,4 @@
+$color_plomo:#989898;
 .background_gray{
 	background-color: #f2f2f2;
 }
@@ -5,27 +6,29 @@
 .box1 {
     padding: 15px;
     text-align: center;
-    color: #989898;
+    color:$color_plomo;
     border-bottom: 1px solid #989898;
 }
 .box1 span {
     font-size: 45px;
-
 }
 .pt-25{
-	padding-top: 25px;
-}
-
+	padding-top: 25px;}
 .pl-25{
-	padding-left:25px;
-}
+	padding-left:25px;}
 .mg-25{
-	margin-top: 25px;
-}
+	margin-top: 25px;}
 .pr-25{
-	padding-right:25px;
-}
+	padding-right:25px;}
+.page-header h1{
+	margin:0}
+.season h4{
+	color:$color_plomo;}
+.season p{
+	color:$color_plomo;
+	font-size:12px;
 
+}
 .content-panel {
     background: #fff;
     padding: 15px;
@@ -40,7 +43,7 @@
     padding: 0 10px;
     line-height: 60px;
     height: 60px;
-    margin: 0;
+    margin-top: 10px;
     background: #9c009c;
     text-align: center;
 }
