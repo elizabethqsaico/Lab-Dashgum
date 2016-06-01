@@ -1,17 +1,28 @@
 /**{
 	outline:1px solid rgba(255,0,0,0.3);
 }*/
-#main-content {
-  margin-top: 2%;
-  margin-left: 2%; }
-
-.background_grey {
+body {
   background-color: #F2F2F2; }
 
-#blanco {
-  padding: 3% 3%;
-  box-shadow: -2px 4px 5px #0B0B3B;
-  background-color: white;
-  margin: 5% 2%; }
+.blanco {
+  -moz-box-shadow: 0px 6px 8px #b8b8b8;
+  -webkit-box-shadow: 0px 6px 8px #b8b8b8;
+  box-shadow: 0px 6px 8px #b8b8b8;
+  padding: 4%;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  background-color: #ffffff; }
+
+.mt-5 {
+  margin-top: 5%; }
+
+.ml-0 {
+  margin-left: 0px; }
+
+@media (max-width: 750px) {
+  .blanco {
+    padding: 2% 2%;
+    margin: 3% 1%; } }
 
 /*# sourceMappingURL=progress.css.map */
